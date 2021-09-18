@@ -135,9 +135,7 @@ songf1%>%mutate(BAROMETER=round(`NUMBER OF WEEKS AS #1`))%>%
     table_body.border.top.color = "#989898",
     heading.border.bottom.color = "#989898",
     row_group.border.top.color = "#989898",
-    summary_row.border.color = "#989898",
-    stub.border.color = "#989898",
-    stub.border.style = "dashed"
+    summary_row.border.color = "#989898"
     )%>%
   tab_style(
     style = list(
